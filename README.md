@@ -1,4 +1,4 @@
-# 💙 Namer App (Flutter)
+# 💙 Favorite Random Word (Flutter)
 
 A beautiful, responsive Flutter application that generates random word pairs. Users can browse through infinite suggestions, "like" their favorites, and manage a saved list.
 
@@ -20,9 +20,7 @@ This project is based on the official [Write your first Flutter app](https://doc
 
 | Generator Page | Favorites Page |
 | :---: | :---: |
-| <img width="1918" height="971" alt="image" src="https://github.com/user-attachments/assets/d9db300d-5316-4da1-9fa0-eb5a99a44659" />
- | <img width="1917" height="971" alt="image" src="https://github.com/user-attachments/assets/b4af873f-ec62-4e15-9767-8f2209dbf3e7" />
- |
+| <img width="1918" height="971" alt="Generator Page" src="https://github.com/user-attachments/assets/d9db300d-5316-4da1-9fa0-eb5a99a44659" /> | <img width="1917" height="971" alt="Favorites Page" src="https://github.com/user-attachments/assets/b4af873f-ec62-4e15-9767-8f2209dbf3e7" /> |
 
 ## 🛠️ Prerequisites
 
@@ -37,4 +35,4 @@ To get a local copy up and running, follow these simple steps.
 
 ### 1. Clone the repository
 ```bash
-git clone [https://github.com/your-username/namer-app.git](https://github.com/your-username/namer-app.git)
+git clone https://github.com/Meettank3/-FavoriteRandomWord.git
