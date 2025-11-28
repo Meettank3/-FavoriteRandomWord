@@ -45,6 +45,8 @@ class MyAppState extends ChangeNotifier {
     if(favorites.contains(current)){
       favorites.remove(current);
     }
+    notifyListeners();
+
   }
 }
 
@@ -227,8 +229,7 @@ class FavoritesPage extends StatelessWidget {
             children: [
               IconButton(
                 onPressed: () {
-                  appState.toggleDeleteFavorite(pair);
-                  appState.notifyListeners();
+                  appState.toggleDeleteFavorite(pair);                  
                 },
                 icon: Icon(Icons.delete_outline, color: Theme.of(context).colorScheme.primary,),
               ),
@@ -281,8 +282,7 @@ class HistoryListView extends StatelessWidget {
                     ],
                   ),
                   onPressed: () => {
-                    appState.current = pair,
-                    appState.notifyListeners(),
+                    appState.current = pair,                    
                   },
 
                 ),
